@@ -13,7 +13,8 @@ It's written in C++.
 
 Imported using g++ and MinGW to work in Windows and MacOSX.
 
-CrossCompilation Code (from MacOSX):
+
+CrossCompilation Terminal Command (from MacOSX to Windows):
 
     brew install mingw32
-    i686-w64-mingw32-g++ -static -o HVS_Demo /Users/PH0B0SS/Desktop/HVS/HVS.cpp
+    i686-w64-mingw32-g++ -static -o HVS.exe /Users/PH0B0SS/Desktop/HVS/HVS.cpp
